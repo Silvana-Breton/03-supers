@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="descuento">20% de descuento en todos los productos!</div>
+      <h1>Nombre Tienda</h1>
+    </header>
+    <main>
+      <section class="formulario">
+        <form action="">
+          <h1>Añadi tu super!</h1>
+          <p>Agregá tu personaje favorito completando las opciones.</p>
+          <div class="fila">
+            <div class="columna">
+              <label for="nombre">*Nombre</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Nombre de Héroe"
+              />
+              <label for="fecha">Fecha</label>
+              <input type="date" id="fecha" name="fecha" />
+              <textarea
+                name="descripcion"
+                id="descripcion"
+                placeholder="Descripción"
+              ></textarea>
+            </div>
+            <div class="columna">
+              <label for="especie">*Especie</label>
+              <select name="especie" id="especie">
+                <option value="especie1">Especie 1</option>
+                <option value="especie2">Especie 2</option>
+                <option value="especie3">Especie 3</option>
+              </select>
+              <label for="foto">Agregar Foto</label>
+              <input type="file" name="foto" id="foto" />
+              <span>Poderes</span>
+              <label for="poderes"
+                ><input
+                  type="checkbox"
+                  name="poder-volar"
+                  id="poderes"
+                />Volar</label
+              >
+              <label for="poderes"
+                ><input
+                  type="checkbox"
+                  name="poder-"
+                  id="poderes"
+                />Volar</label
+              >
+              <label for="poderes"
+                ><input
+                  type="checkbox"
+                  name="poder-volar"
+                  id="poderes"
+                />Volar</label
+              >
+              <label for="poderes"
+                ><input
+                  type="checkbox"
+                  name="poder-volar"
+                  id="poderes"
+                />Volar</label
+              >
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <button class="btnmas-form">
+        <a class="mas" href="./index.html">+</a>
+      </button>
+    </main>
+  </body>
+  <footer>
+    <p class="footer">Todos los derechos reservados a TALLER DE DISEÑO WEB</p>
+  </footer>
+</html>

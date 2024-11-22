@@ -1,0 +1,151 @@
+* {
+  font-family: roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.descuento {
+  background-color: #1cd1b0;
+  padding: 10px 0px 10px 10px;
+  font-size: 15px;
+  font-weight: 400;
+}
+h1 {
+  background-color: #00669f;
+  padding: 28px 0px 26px 28px;
+  font-size: 40px;
+  font-weight: 400;
+}
+.cards {
+  margin: 153px 32px;
+}
+.tarjeta {
+  width: 300px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.card-head {
+  position: relative;
+  height: 193px;
+}
+.card-head .img-corazon {
+  position: absolute;
+  top: 15px;
+  left: 21px;
+}
+.card-head .img-batman {
+  position: absolute;
+  top: 127px;
+  left: 90px;
+  border-radius: 100%;
+}
+.card-body {
+  background: #f3f3f3;
+  text-align: center;
+  padding: 73px 16px 20px 16px;
+}
+.card-body h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.card-body p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+.card-body .btn-vermas {
+  padding: 15px 37px;
+  background-color: #00669f;
+  display: inline-block;
+  margin-top: 32px;
+  color: #fff;
+  text-decoration: none;
+}
+footer {
+  background-color: #00669f;
+}
+.footer {
+  padding: 16px 0px 16px 32px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btnmas {
+  background-color: #00669f;
+  padding: 25px 30px;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  top: 50%;
+  right: 16px;
+  position: fixed;
+}
+.btnmas-form {
+  background-color: #00669f;
+  padding: 25px 30px;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  top: 50%;
+  left: 16px;
+  position: fixed;
+}
+.mas {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+form {
+  /* flex-wrap: wrap; */
+  /* display: flex; */
+  /* align-items: center; */
+  flex-direction: column;
+  border-radius: 20px;
+  /* width: 954px; */
+  /* height: 632px; */
+  background-color: #00669f;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  color: #f3f3f3;
+  /* justify-content: center; */
+}
+/* form h2 {
+  color: #f3f3f3;
+  font-size: 30px;
+  padding-top: 2px;
+} */
+.fila {
+  display: flex;
+  gap: 5px;
+}
+.columna {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+.btnmas:hover {
+  background-color: #1cd1b0;
+}
+.btnmas-form:hover {
+  background-color: #1cd1b0;
+}
+input:focus {
+  color: red;
+  font-weight: bold;
+}
+
+@media (max-width: 715px) {
+  .btnmas-form {
+    top: 85%;
+  }
+}
